@@ -3,11 +3,12 @@ var rez = 20;
 var food;
 var w;
 var h;
+var fram = prompt('how much frame rate do you want?');
 function setup() {
   createCanvas(400, 400);
   w = floor(width / rez);
   h = floor(height / rez);
-  frameRate(5);
+  frameRate(fram/1.5);
   snake = new Snake();
   foodLocation();
 }
