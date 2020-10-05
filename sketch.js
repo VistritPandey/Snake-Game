@@ -1,5 +1,5 @@
 var snake;
-var rez = 20;
+var rez = 10;
 var food;
 var w;
 var h;
