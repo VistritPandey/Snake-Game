@@ -3,7 +3,7 @@ var rez = 10;
 var food;
 var w;
 var h;
-var fram = prompt('how much frame rate do you want?');
+var fram = prompt('Enter speed.. Enter less than 30 for better experience?');
 function setup() {
   createCanvas(400, 400);
   w = floor(width / rez);
